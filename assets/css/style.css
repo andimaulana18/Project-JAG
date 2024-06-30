@@ -4,6 +4,17 @@
     --dark: #353535;
 }
 
+.background{
+    background-image: url(/assets/img/aaa-removebg-preview.png);
+    background-size: cover;
+    background-position-x: 120%;
+    /* z-index: -1; */
+}
+
+.justify{
+    text-align: justify;
+}
+
 .fw-medium {
     font-weight: 500 !important;
 }
@@ -441,3 +452,4 @@
 .footer .copyright a:hover{
     color: var(--primary);
 }
+
